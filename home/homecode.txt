@@ -1,0 +1,195 @@
+<html>
+
+<!---head--->
+<head>
+ <link rel="stylesheet" href="home1.css"/>
+</head>
+
+<!---body--->
+<body>
+   <!--Header(bar)-->
+    <div class='appbar'>
+     <div class="row">
+      <div class = 'cell1'>
+              <img class = "logo" src="Logo.png"  />
+      </div>
+      <div class = 'cell2'>
+              <a href="Home.html" class ="home">HOME</a> 
+      </div>
+      <div class = 'cell3'>
+               CHECKOUT
+      </div>
+      <div class = 'cell4' >
+               <a href="about us.html" class ="about">ABOUT</a>  
+      </div>
+      <div class = 'cell5'>
+                CONTACT
+      </div>
+      <div class="cell6">
+                <img class = "icon" src = "user icon.png">
+      </div>
+
+     </div>
+   </div>
+
+
+<!----cover--->
+   <div class="cover">
+     <img class="img1" src="cover.jpg" />
+   </div>
+
+   <div class="parent">
+     <div class="text1">
+        Free Shiping
+     </div>
+     <div class="text2">
+        Sale Up to 50%
+     </div>
+     <div class="text3">
+        Support 24 Hours
+     </div>
+   </div>
+
+
+<!---images--->
+   <div class="table">
+        <div class="cap">
+           Our Products
+        </div>
+ 
+
+        <div class="body">
+           <div class="row1">
+               <div class="c1">
+                 <img class="image1" src="colthes.jpg"/>
+                 <input class="button1" type="button" value="Clothes"/>
+               </div>
+               <div class="c2">
+                 <img class="image2" src="scarves.jpg"/>
+                 <input class="button22" type="button" value="Scarves"/>
+               </div>
+               <div class="c3">
+                 <img class="image3" src="bags.jpg"/>
+                 <input class="button3" type="button" value="Bags"/>
+               </div>
+           </div>
+
+<div class="div"></div>
+
+           <div class="row2">
+               <div class="c4">
+                 <img class="image4" src="shoes.jpg"/>
+                 <input class="button4" type="button" value="Shoes"/>
+               </div>
+               <div class="c5">
+                 <img class="image5" src="perfumes.jpg"/>
+                 <input class="button5" type="button" value="Perfums"/>
+               </div> 
+            </div>
+   </div>
+
+
+
+<div class="text4"> Trending This Week </div>
+     <!---trending--->
+    <div class="parent2">
+        <div class="child1">
+          <img class="image6" src="short dress2.jpg"/>
+              <div class="text5"> Short Red Dress</div>
+                 <div class="ch1">
+                   <img class="image9" src="Rate.png"/>
+                 </div>  $20.00
+         </div>
+
+         <div class="child2">
+            <img class="image7" src="boy.png"/>
+                 <div class="text6"> Loose Knit 3/4 Sleeve</div>
+                     <div class="ch2">
+                       <img class="image10" src="Rate.png"/>
+                  </div>  $119.99
+         </div>
+         <div class="child3">
+             <img class="image8" src="casuall2.jpg"/>
+                  <div class="text7">Women's Casual Wear </div>
+                    <div class="ch3">
+                         <img class="image11" src="Rate ful.png"/>
+                     </div> $100.00
+
+          </div>
+     </div>
+
+    <div class="parent3">
+      <div class="child4">
+       <img class="image12" src="left banner.png"/>
+      </div>
+      <div class="child5">
+       <img class="image13" src="right banner.png"/>
+      </div>
+
+   </div>
+<!----footer-->
+ <footer>
+    <div class="footer">
+        
+       <div>
+           <img class="logo2" src="Logo.png">
+        </div>
+                <!--contact details-->
+                <div class="contfooter">
+                    <div class="divfooter">
+                        <p class="address"> E-mail : </p>
+                        <p class="content">contact@gmailcom</p></br>
+                        <p class="address2">Hotline</p>
+                        <p class="content">+992537781</p>
+        
+                        <img class="google" src="google_login.png"/>
+                        <img class="twitter" src="twitter_login.png"/>
+                        <img class="facebook" src="fb_login.png"/>
+    
+                        </div>
+        
+                <!--categories-->
+                    <div class="divfooter">
+                        <p class="cat">Categories : </p>
+                        <p>Clothes</p>
+                        <p> Bags</p>
+                        <p> Shoes</p>
+                        <p>Scarves</p>
+                        <p>Perfumes</p>
+        
+                    </div>
+        
+                <!--information-->
+                    <div class="divfooter">
+                        <p class="cat">Information : </p>
+                        <p>About us</p>
+                        <p> Contact</p>
+                        <p> Services</p>
+        
+                    </div>
+        
+                    <div class="divfooter">
+                        <p class="cat">Newsletter : </p>
+                        <p>Subscribe ro recieve updates ,
+                            access to exculsive deals ,
+                            and more</p>
+        
+                        <form>
+                            <div class="divform"><input class="input" type="text" placeholder="Enter your email address...">
+                            </div>
+                            <div class="divform"><button class="button2" type="submit">Subscribe</button></div>
+                        </form>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+
+            </div>
+            <!--footer-->
+        
+        </footer>
+
+</body>
+</html>

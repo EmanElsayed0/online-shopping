@@ -1,0 +1,145 @@
+*{
+margin: 0;
+padding: 0;
+}
+.appbar{
+    background-color: #ffa8a7;
+    height: 85px;
+    width: 100%;
+    display: table;   
+}
+
+.row{
+    display: table-row;
+    text-align: center;
+    
+}
+.cell2,.cell3,.cell4,.cell5,.cell6{
+    
+    display: table-cell;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-around;
+    vertical-align: middle;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+.home,.about.contact
+{
+    font-family: 'Roboto', sans-serif;
+
+}
+.home,.about:hover{
+    color: #7f5161da; 
+    text-decoration:none;
+}
+
+.about,.home:hover{
+    color: rgba(255, 255, 255, 0.842);
+    text-decoration:none;
+}
+.cell3,.cell4,.cell5{
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.logo{
+    width : 125px;
+    height : 55px;
+   
+    padding-top: 10px; 
+    
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.title{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 48px;
+    
+}
+
+.part{
+    color: grey;
+    margin: 20px;
+}
+
+.parent{
+    width: 100%;
+    height: 310px;
+    background-color: white;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.div1,.div2,.div3,.div4,.div5{
+    width: 250px;
+    height: 290px;
+    background-color: rgb(221, 218, 218);
+    border-radius: 20px;
+    margin: 2px;
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+.parent span{
+    color: red;
+    text-align: center;
+    padding-left: 10px;
+}
+.parent p{
+    color: black;
+    text-align: left;
+    padding-left: 10px;
+}
+.parent button{
+    background-color: salmon;
+    color: black;
+    border-radius: 5px;
+    margin-left: 111px ;
+    
+}
+.contaner{
+    background-color: #ffa8a7
+}
+.contact {
+    width: 100%;
+    margin: 0 auto;
+}
+    
+.contact img{
+    width: 125px;
+    height: 59px;
+    margin-left: 125px;
+
+}
+
+table {
+    table-layout: fixed ;
+    width: 100% ;
+}
+th {
+    width: 25% ;
+}
+input{
+    height: 30px;
+    width: 228px;
+    border-radius: 5px;
+}
+th button{
+background-color: brown;
+width: 95px;
+height: 35px;
+border-radius: 5px;
+}
+
+.title,.part,.parent,.contaner
+{    font-family: 'Roboto', sans-serif;
+}

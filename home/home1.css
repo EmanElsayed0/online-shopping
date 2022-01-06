@@ -1,0 +1,382 @@
+*
+{
+   margin:0;
+   padding:0;
+}
+.appbar{
+   background-color: #ffa8a7;
+   height: 85px;
+   width: 100%;
+   display: table;
+   position: fixed;
+   
+}
+
+.row{
+    display: table-row;
+    text-align: center;
+  
+}
+.cell2,.cell3,.cell4,.cell5,.cell6{
+    
+    display: table-cell;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    justify-content: space-around;
+    vertical-align: middle;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+.about,.home:hover{
+    color:#ffeaea;
+    text-decoration:none;
+}
+.home,.about:hover{
+    color: rgb(127, 81, 97);
+    text-decoration:none;
+}
+ 
+.cell3,.cell4,.cell5{
+    color:rgba(255, 255, 255, 0.842);
+}
+
+.logo{
+    width : 125px;
+    height : 55px;
+    padding-top: 10px; 
+    
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.cover{
+    width:100%;
+    height:700px;
+}
+.img1{
+    width:100%;
+    height:700px;
+}
+
+.parent{
+    width:1230px;
+    height:100;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+
+}
+.text1 , .text2 , .text3
+{
+    width:160px;
+    height:50px;
+    border:3px solid #ffa8a7;
+    background-color: #ffa8a7;
+    font-size:20px;
+    color:#ffffff;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    text-align:center;
+    padding-top:12px; 
+   
+}
+.table{
+    display:table;
+    width:100%;
+    margin:auto;
+}
+.cap{
+
+    display:table-caption;
+    width:100%;
+    height:100px;
+    font-size:30px;
+    color:#847F81;
+    /* font-family:Arial, Helvetica, sans-serif;  */
+    margin:auto;
+    text-align:center;
+}
+.row1{
+   
+    display:table-row;
+    width:1000px;
+    height:400px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:start;
+
+}
+.c1,.c3{
+    display:table-cell;
+    width:280px;
+    height:400px;
+
+}
+.image1{
+    width:280px;
+    height:320px;
+}
+.button1{
+    background-color:#ffa8a7;
+    width:120px;
+    height:50px;
+    margin-top:10px;
+    margin-left:80px;
+    color:#ffeaea;
+    font-size:25px;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    border:2px solid #847F81; 
+}
+.image3{
+    width:280px;
+    height:320px;
+}
+.button3{
+    background-color:#ffa8a7; 
+    width:120px;
+    height:50px;
+    margin-top:10px;
+    margin-left:80px;
+    color:#ffeaea;
+    font-size:25px;
+    /* font-family:Arial, Helvetica, sans-serif;  */
+    border:2px solid #847F81; 
+}
+
+.c2{
+    display:table-cell;
+    width:320px;
+    height:750px;
+
+}
+.image2{
+    width:320px;
+    height:580px;
+}
+.button22{
+    background-color:#ffa8a7; 
+    width:140px;
+    height:50px;
+    margin-top:10px;
+    margin-left:100px;
+    color:#ffeaea;
+    font-size:25px;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    border:2px solid #847F81;  
+
+}
+.div{
+    width:800px;
+    height:20px;
+    margin:auto;
+}
+.row2{
+ 
+    display:table-row;
+    width:1000px;
+    height:400px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:start;
+}
+.c4,.c5{
+    display:table-cell;
+    width:280px;
+    height:400px;
+
+}
+.image4{
+    width:280px;
+    height:320px;
+}
+.button4{
+    background-color:#ffa8a7;
+    width:120px;
+    height:50px;
+    margin-top:10px;
+    margin-left:80px;
+    color:#ffeaea;
+    font-size:25px;
+    /* font-family:Arial, Helvetica, sans-serif;  */
+    border:2px solid #847F81; 
+}
+.image5{
+    width:280px;
+    height:320px;
+}
+.button5{
+    background-color:#ffa8a7;
+    width:120px;
+    height:50px;
+    margin-top:10px;
+    margin-left:80px;
+    color:#ffeaea;
+    font-size:25px;
+    /* font-family:Arial, Helvetica, sans-serif;  */
+    border:2px solid #847F81; 
+}
+
+.text4{
+    font-size:30px;
+    color:#847F81;
+    font-family:Arial, Helvetica, sans-serif; 
+    width:100%;
+    height:80px;
+    text-align:center;
+}
+.parent2{
+    width:1000px;
+    height:400px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:start;
+    
+}
+.child1,.child2,.child3{
+    width:300px;
+    height:400px;
+    font-size:25px;
+    color:#847F81
+}
+.image6,.image7,.image8{
+    width:300px;
+    height:300px;
+}
+.text5,.text6,.text7{
+    font-size:20px;
+    color:black;
+    /* font-family:Arial, Helvetica, sans-serif;  */
+}
+.ch1,.ch2,.ch3{
+    width:130px;
+    height:30px;
+
+display:inline-block;
+}
+.image9,.image10,.image11{
+    width:130px;
+    height:30px;
+}
+
+.parent3{
+    width:1000px;
+    height:350px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:start;
+
+}
+.child4,.child5{
+    width:500px;
+    height:300px;
+
+}
+.image12,.image13{
+    width:500px;
+    height:300px;
+}
+
+.Footer {
+    width:100%px ;
+    background-color: #ffa8a7;
+    padding-left: 20px;
+}
+.logo2{
+    width : 125px;
+    height : 55px;
+    padding-left: 15px;
+    padding-top: 10px; 
+    padding-bottom: 50px;
+    
+}
+.contfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    
+}
+.address,.address2{
+    font-weight: bold; 
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 5px;
+    
+    
+}
+.facebook,.twitter,.google{
+    width: 50px;
+    height: 50px;    
+    
+}
+.cat{
+   
+   
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+
+
+} 
+.divfooter{
+
+    padding-right: 70px;
+    padding-left: 30px;
+    
+
+}
+.input{
+    padding: 10px;
+    font-size: 17px;
+    border:1px solid grey;
+    float: left;
+    width: 70%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.button2{
+    background-color: #7f5161da;
+    float: left;
+    width: 28%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.divform{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.appbar,.cover,.parent,.table,.Footer,.parent2,.parent3
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.appbar{
+    background-color: #ffa8a7;
+    height: 85px;
+    width: 100%;
+    display: table;
+    position: fixed;
+   
+}
+
+.row{
+    display: table-row;
+    text-align: center;
+  
+}
+.cell2,.cell3,.cell4,.cell5,.cell6{
+    
+    display: table-cell;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    
+    justify-content: space-around;
+    vertical-align: middle;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+.home,.about:hover{
+    color: #ffeaea; 
+    text-decoration:none;
+}
+
+.about,.home:hover{
+    color: rgb(127, 81, 97);
+    text-decoration:none;
+
+
+}
+.cell3,.cell4,.cell5{
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.logo{
+    width : 125px;
+    height : 55px;
+    padding-top: 10px; 
+    
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.container{
+    padding-left: 35px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+h1{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    
+}
+p{
+    font-size: large;
+
+}
+
+.contain{
+    padding-left: 150px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.Footer {
+    width: 100% ;
+    background-color: #ffa8a7;
+    padding-left: 20px;
+}
+.logo2{
+    width : 125px;
+    height : 55px;
+    padding-left: 15px;
+    padding-top: 10px; 
+    padding-bottom: 50px;
+    
+}
+.contfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    
+}
+.address,.address2{
+    font-weight: bold; 
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 5px;
+    
+    
+}
+.facebook,.twitter,.google{
+    width: 50px;
+    height: 50px;    
+    
+}
+.cat{
+   
+   
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+
+
+} 
+.divfooter{
+
+    padding-right: 70px;
+    padding-left: 30px;
+    
+
+}
+.input{
+    padding: 10px;
+    font-size: 17px;
+    border:1px solid grey;
+    float: left;
+    width: 70%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.button2{
+    background-color: #7f5161da;
+    float: left;
+    width: 28%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.divform{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.appbar,.container,.contain,.Footer
+{    
+    font-family: 'Roboto', sans-serif;
+}

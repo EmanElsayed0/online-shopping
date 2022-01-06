@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="SignIn.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <style>
+            input[type=submit]{
+                color: #ffff;
+                font-weight: bold;
+                letter-spacing: 0.4;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+
+
+        <script src="SignIn.js"></script> 
+
+
+           <div class ='parent'>
+               <img src="../signIn/Logo.png" alt="OUR LOGO" width="150px"/>
+           </div>
+           <center>
+               <div class='div'>
+                <div class='div1'>
+                    <img src="../signIn/online shopping.svg" width="450px"/>
+                </div>
+                <div class="div2">
+                  <p class='p1'>Welcome to Sales!</p>
+                  <p class='p2'>Sign in</p>
+
+                  <form name="myform" onsubmit="return validateemail();" method="post" target="_Blank" action ="../home/home.html"  > 
+                    <p>
+                        <input type="email" name="email" class="email" placeholder='E-mail'  required /><br/>
+
+                        <input type="password" name="password" class="password" placeholder='password'  required/><br/> 
+                        <input type="submit" name="sign in" value="Sign in"  class="button"/>
+                        
+                     
+                        <br/>
+                    </p>
+                  </form>
+                <div class='div4'>
+                    <pre class='signInLine'>_________________________________  Or sign in with  _________________________________</pre>
+                </div>
+                <div class='signInWith'>
+                    <a href="https://WWW.google.com">
+                        <img src="../signIn/google_login.png" width="80px">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="../signIn/twitter_login.png" width="80px">
+                    </a>
+                    <a href="https://facebook.com">
+                        <img src="../signIn/fb_login.png" width="80px">
+                    </a>
+                </div>
+                </div>
+               </div>
+           </center>
+    </body>
+</html>
+
+

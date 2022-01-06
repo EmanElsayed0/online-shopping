@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.appbar{
+    background-color: #ffa8a7;
+    height: 80px;
+    width: 100%;
+    display: table;
+    position: fixed;
+   
+}
+.row{
+     
+    display: table-row;
+  
+   
+}
+footer{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #ffa8a7;
+    
+    height: 40%;
+}
+.footer{
+    display: block;
+}
+
+.cell1,.cell2,.cell3,.cell4,.cell5,.cell6{
+    
+    display: table-cell;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    
+    vertical-align: middle;
+    text-align: center;
+    
+    
+}
+.home,.about:hover{
+    color: #7f5161da; 
+    text-decoration:none;
+}
+
+.about,.home:hover{
+    color: rgba(255, 255, 255, 0.842);
+    text-decoration:none;
+
+
+}
+.cell3,.cell4,.cell5{
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.logo{
+    width : 125px;
+    height : 55px;
+    
+}
+.logo2{
+    width : 125px;
+    height : 55px;
+    padding-top: 10px; 
+    padding-bottom: 50px;
+    
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.body{
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    display: table;
+    width: 94%;
+}
+
+
+.div{
+    display: table-row;
+    
+}
+.row1{
+    display: table-cell;
+    font-size: 50px;
+    color: #847f81;
+    padding-top: 120px;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.row2{
+    display: table-cell;
+    font-size: 40px;
+    color: #847f81;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.parent{
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:right;
+    padding-bottom: 70px;
+}
+
+
+.child{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 25px;
+    text-align: left;
+  
+  
+}
+.detail{
+    font-size: 25px;
+    color: red;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+button{
+    border: none;
+    
+    width: 45%;
+  background-color: #ffa8a7;
+  padding: 15px 0px ;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  font-weight: bold;
+  
+  cursor: pointer;
+  border-radius: 10px;
+  border-color: black;
+  
+
+}
+
+
+.pic{
+    width: 450px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+
+
+.address,.address2{
+     font-weight: bold; 
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 5px;
+    
+    
+    
+}
+.content,.content2{
+    padding-bottom: 20px;
+    text-align: left;
+    
+}
+.facebook,.twitter,.google{
+    width: 50px;
+    height: 50px;
+       
+}
+
+ .cat{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+} 
+.p{
+    font-weight: normal;
+}
+.contfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    
+}
+.divfooter{
+
+    padding-right: 70px;
+    padding-left: 30px;
+
+}
+.input{
+    padding: 10px;
+    font-size: 17px;
+    border:1px solid grey;
+    float: left;
+    width: 70%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.button2{
+    background-color: #7f5161da;
+    float: left;
+    width: 28%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.divform{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.appbar,.body,.footer
+{
+    font-family: 'Roboto', sans-serif;
+
+}
